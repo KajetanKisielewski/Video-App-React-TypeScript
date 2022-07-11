@@ -1,0 +1,37 @@
+.pagination {
+    margin: 1rem auto;
+}
+
+.pagination__toolbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: var(--align-center);
+    align-items: var(--align-center);
+
+    margin: 1rem 0 4rem 0;
+}
+
+.pagination__toolbox .pagination__toolbox__label {
+    font-size: 2rem;
+    text-align: var(--align-center);
+    margin-inline-end: 1rem;
+}
+
+.pagination__toolbox .pagination__toolbox__input {
+    width: 15%;
+    font-size: 1.5rem;
+}
+
+.pagination__toolbox .pagination__toolbox__button {
+    font-size: 1.5rem;
+}
+
+.pagination__toolbox * {
+    margin-block-start: 1rem;
+}
+
+@media (min-width: 768px) {
+    .pagination__toolbox .pagination__toolbox__input {
+        width: 10%;
+    }
+}

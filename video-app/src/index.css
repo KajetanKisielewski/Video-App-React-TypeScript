@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+
+  --main-app-color: rgb(108, 117, 125);
+  --modal-overlay-color:rgba(0, 0, 0, 0.7);
+  --modal-background-color: rgb(245, 239, 234);
+  --modal-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+  rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  --white-color-basic: rgba(254, 255, 255, 1);
+  --validation-hint-color: rgb(190, 85, 85);
+  --input-border-color: linear-gradient( to right, rgb(146, 146, 146), rgb(211, 211, 211) );
+  --input-box-shadow:  0 0 0 0.25rem rgba(211, 211, 211, 0.25);
+  --label-color: rgb(146, 146, 146);
+  --color-transparent: transparent;
+  --button-color: rgb(108, 117, 125);
+  --favorites-color: rgb(255, 0, 0);
+
+  --gap-small: 1rem;
+  --gap-basic: 2rem;
+
+  --tiles-item-width: 23rem;
+  --list-item-width: 53rem;
+
+  --font-weight-bold: 700;
+  --letter-spacing-basic: 0.1rem;
+  --align-center: center;
+  --transition: 0.2;
+  --cursor-highlighted: pointer;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}

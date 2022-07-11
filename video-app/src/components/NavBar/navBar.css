@@ -1,0 +1,23 @@
+.navbar-nav {
+    text-align: var(--align-center);
+}
+
+.header .header__col {
+    padding: 0;
+}
+
+.nav__link,
+.nav .navbar-brand {
+    font-size: 1.8rem;
+}
+
+@media(min-width: 768px) {
+    .navbar-collapse {
+        justify-content: end;
+    }
+
+    .nav-item {
+        padding-block: 0.5rem;
+        padding-inline-start: 2rem;
+    }
+}

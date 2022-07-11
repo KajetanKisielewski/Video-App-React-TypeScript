@@ -1,0 +1,29 @@
+.wrap {
+    max-width: 144rem;
+}
+
+.main__col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: var(--align-center);
+    align-content: var(--align-center);
+}
+
+.main__heading,
+.main__subheading--loading,
+.main__subheading--favorites,
+.main__subheading--all {
+    width: 100%;
+    margin-block-end: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: var(--align-center);
+}
+
+.main__subheading--loading {
+    min-height: 50px;
+}
+
+.main__heading {
+    font-size: 3rem;
+}

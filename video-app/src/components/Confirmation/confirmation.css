@@ -1,0 +1,24 @@
+.modal__paragraph {
+    margin: 1.5rem 0 2.5rem;
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    text-align: var(--align-center);
+    letter-spacing: var(--letter-spacing-basic);
+}
+
+.modal__actions {
+    display: flex;
+    justify-content: var(--align-center);
+    gap: var(--gap-basic);
+}
+
+.modal__confirm,
+.modal__cancel {
+    max-width: 120px;
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: var(--modal-box-shadow);
+    color: var(--white-color-basic);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-basic);
+}

@@ -1,0 +1,14 @@
+.toolbox__actions {
+    text-align: var(--align-center);
+}
+
+.toolbox__actions .actions {
+    margin: 1rem;
+}
+
+@media (min-width:768px) {
+    .toolbox__actions .actions {
+        padding-block: 0.5rem;
+        font-size: 1.5rem;
+    }
+}
