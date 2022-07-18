@@ -27,7 +27,7 @@
 }
 
 .pagination__toolbox * {
-    margin-block-start: 1rem;
+    margin-block: 1rem;
 }
 
 @media (min-width: 768px) {

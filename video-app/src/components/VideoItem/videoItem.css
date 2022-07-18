@@ -108,13 +108,14 @@
     grid-column: 5/6;
 }
 
-.button__icon--tiles,
-.button__icon--list {
+.video__button--tiles .button__icon--tiles,
+.video__button--list .button__icon--list{
     color: var(--button-color);
     font-size: 1.6rem;
 }
 
-.button__icon--favorites {
+.button__icon--favorites .button__icon--tiles,
+.button__icon--favorites .button__icon--list  {
     color: var(--favorites-color);
 }
 
